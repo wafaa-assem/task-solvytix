@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* font */
+body {
+  font-family: "Outfit", serif;
+}
+
 /* navlink */
 .active {
   color: #0099cc;

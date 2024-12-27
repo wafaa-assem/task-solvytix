@@ -41,7 +41,7 @@ const Navbar = () => {
           isScrolled ? "backdrop-blur-md" : "bg-[#F0F3F2]"
         } `}
       >
-        <div className="container flex justify-between items-center py-5 relative z-50 font-[Roboto] font-medium text-xs">
+        <div className="container flex justify-between items-center py-5 relative z-50 font-medium text-sm">
           {/* logo section */}
           <Link to="/">
             <h1 className="flex items-center gap-3">

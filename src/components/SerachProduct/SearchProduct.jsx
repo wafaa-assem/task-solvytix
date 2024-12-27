@@ -14,11 +14,13 @@ const SearchProduct = ({
     const filteredProducts = originalProducts.filter((product) => {
       return product.title.toLowerCase().includes(value.toLowerCase());
     });
-
     setProducts(filteredProducts);
   };
 
- 
+  // reset the search input whenever the page changes
+  useEffect(() => {
+    setSearchValue("");
+  }, [currentPage]);
 
   return (
     <div>

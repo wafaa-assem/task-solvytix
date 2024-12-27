@@ -1,8 +1,19 @@
-# React + Vite
+# ShopMart Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopMart is an e-commerce web application that enables users to browse products, perform searches, and navigate through pages seamlessly. The app is designed for responsiveness and user-friendliness.
 
-Currently, two official plugins are available:
+🔹 **Features**
+- Product listing with pagination.
+- Search functionality for filtering products.
+- React Router for smooth navigation between pages.
+- Responsive design for various devices.
+- Error handling for API and user inputs.
+- Icons integrated using React Icons library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹 **Technologies Used**
+- React.js
+- React Router
+- Tailwind CSS
+- React Paginate
+- Axios
+- React Icons
